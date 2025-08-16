@@ -6,7 +6,7 @@ use std::os::unix::fs::PermissionsExt;
 use axum::routing::post;
 use axum::{routing::get, Router};
 use deadpool::Runtime;
-use tokio::net::{TcpListener, UnixListener};
+use tokio::net::UnixListener;
 use tokio::signal;
 
 use moonshine_processor::client::{Manager, Pool};
