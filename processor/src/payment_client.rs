@@ -1,6 +1,5 @@
 use std::time::Duration;
 use chrono::DateTime;
-use log::debug;
 use serde::{Deserialize, Serialize};
 use crate::cmd::App;
 use crate::{HealthCheck, HealthCheckResult};
